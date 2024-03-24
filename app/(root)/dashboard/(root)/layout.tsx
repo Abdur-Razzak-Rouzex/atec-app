@@ -2,7 +2,7 @@ import { Karla } from "next/font/google";
 import "@/app/globals.css";
 import { SideBar } from "@/app/(root)/dashboard/shared/sidebar";
 import Header from "@/app/(root)/dashboard/shared/dashobard-header";
-import PageWrapper from "@/components/shared/pagewrapper";
+import PageWrapper from "@/app/(root)/dashboard/shared/pagewrapper";
 import { ThemeProvider } from "@/app/(root)/dashboard/shared/theme-provider";
 import { Metadata } from "next";
 
