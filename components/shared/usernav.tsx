@@ -24,7 +24,7 @@ export function UserNav() {
           </Avatar>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 z-[99998]">
+      <DropdownMenuContent className="w-56 z-[99998]" align="end">
         <DropdownMenuLabel>
           <div className="flex flex-col space-y-1">
             <p className="text-sm font-medium leading-none">Abdur Razzak</p>
