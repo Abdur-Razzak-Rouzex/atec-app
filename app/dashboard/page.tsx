@@ -1,5 +1,5 @@
-import { Overview } from "@/app/(root)/dashboard/components/overview";
-import { RecentSales } from "@/app/(root)/dashboard/components/recent-sales";
+import { Overview } from "@/app/dashboard/components/overview";
+import { RecentSales } from "@/app/dashboard/components/recent-sales";
 import {
   Card,
   CardContent,

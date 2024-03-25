@@ -2,8 +2,8 @@
 import { useSideBarToggle } from "@/hooks/use-sidebar-toggle";
 import classNames from "classnames";
 import { BsList } from "react-icons/bs";
-import { UserNav } from "../../../../components/shared/usernav";
 import { ThemeSwitcher } from "./theme-switcher";
+import { UserNav } from "@/components/shared/usernav";
 
 export default function DashboardHeader() {
   const { toggleCollapse, invokeToggleCollapse } = useSideBarToggle();
