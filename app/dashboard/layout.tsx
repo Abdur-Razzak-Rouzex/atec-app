@@ -1,9 +1,9 @@
 import { Karla } from "next/font/google";
 import "@/app/globals.css";
-import { SideBar } from "@/app/(root)/dashboard/shared/sidebar";
-import Header from "@/app/(root)/dashboard/shared/dashobard-header";
-import PageWrapper from "@/app/(root)/dashboard/shared/pagewrapper";
-import { ThemeProvider } from "@/app/(root)/dashboard/shared/theme-provider";
+import { SideBar } from "@/app/dashboard/shared/sidebar";
+import Header from "@/app/dashboard/shared/dashobard-header";
+import PageWrapper from "@/app/dashboard/shared/pagewrapper";
+import { ThemeProvider } from "@/app/dashboard/shared/theme-provider";
 import { Metadata } from "next";
 
 const karla = Karla({
