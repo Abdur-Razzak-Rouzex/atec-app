@@ -2,14 +2,6 @@ import type { Metadata } from "next";
 
 import "@/app/globals.css";
 
-export const metadata: Metadata = {
-  title: "Auth",
-  description: "Association of Tangail Ex-Cadets",
-  icons: {
-    icon: "",
-  },
-};
-
 export default function FrontEndLayout({
   children,
 }: {
@@ -17,8 +9,9 @@ export default function FrontEndLayout({
 }) {
   return (
     <div>
-      <p>Public layout</p>
+      <p>Public Header</p>
       {children}
+      <p>Footer</p>
     </div>
   );
 }
