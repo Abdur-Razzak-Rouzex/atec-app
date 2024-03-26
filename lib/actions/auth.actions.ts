@@ -1,3 +1,6 @@
+"use server";
+
+import { connectToDatabase } from "../database";
 import User from "../database/models/user.model";
 import { handleError } from "../utils";
 
@@ -13,6 +16,8 @@ export async function RegisterUser({
   username,
 }: RegisterUserParams) {
   try {
+    await connectToDatabase();
+
     const newUser = await User.create({
       email,
       username,
